@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 
 
-with open('D:/Truck delay project/ML Pipeline/artifacts/rfc-v56/truck_classification_rfc.pkl','rb') as file:
+with open('truck_classification_rfc.pkl','rb') as file:
     model = pickle.load(file)
 
 with open('encoder.pkl','rb') as file:
