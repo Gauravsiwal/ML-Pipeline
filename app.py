@@ -3,8 +3,8 @@ import pickle
 import pandas as pd
 import numpy as np
 
-with open('ML-Pipeline/encoder.pkl','rb') as file:
-    encoder = pickle.load(file)
+file = open('ML-Pipeline/encoder.pkl','rb')
+encoder = pickle.load(file)
 
 with open('ML-Pipeline/scalar.pkl','rb') as file:
     scalar = pickle.load(file)
