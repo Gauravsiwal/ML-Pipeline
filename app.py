@@ -6,10 +6,10 @@ import numpy as np
 file = open('encoder.pkl','rb')
 encoder = pickle.load(file)
 
-with open('ML-Pipeline/scalar.pkl','rb') as file:
+with open('scalar.pkl','rb') as file:
     scalar = pickle.load(file)
 
-with open('ML-Pipeline/truck_classification_rfc.pkl','rb') as file:
+with open('truck_classification_rfc.pkl','rb') as file:
     model = pickle.load(file,protocol=pickle.HIGHEST_PROTOCOL)
 
 
