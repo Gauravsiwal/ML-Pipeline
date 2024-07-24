@@ -4,3 +4,5 @@ pandas
 streamlit
 seaborn
 matplotlib
+pickleshare
+joblib
