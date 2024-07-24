@@ -10,7 +10,7 @@ with open('scalar.pkl','rb') as file:
     scalar = pickle.load(file)
 
 with open('truck_classification_rfc.pkl','rb') as file:
-    model = pickle.load(file,protocol=pickle.HIGHEST_PROTOCOL)
+    model = pickle.load(file)
 
 
 
