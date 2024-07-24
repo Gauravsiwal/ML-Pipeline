@@ -4,13 +4,13 @@ import pandas as pd
 import numpy as np
 
 
-with open('truck_classification_rfc.pkl','r') as file:
+with open('ML-Pipeline/truck_classification_rfc.pkl','r') as file:
     model = pickle.load(file)
 
-with open('encoder.pkl','rb') as file:
+with open('ML-Pipeline/encoder.pkl','rb') as file:
     encoder = pickle.load(file)
 
-with open('scalar.pkl','rb') as file:
+with open('ML-Pipeline/scalar.pkl','rb') as file:
     scalar = pickle.load(file)
 
 def prediction(numcols,catcols):
