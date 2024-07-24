@@ -5,7 +5,7 @@ import numpy as np
 
 
 with open('ML-Pipeline/truck_classification_rfc.pkl','rb') as file:
-    model = pickle.load(file)
+    model = pickle.load(file,protocol=pickle.HIGHEST_PROTOCOL)
 
 with open('ML-Pipeline/encoder.pkl','rb') as file:
     encoder = pickle.load(file)
