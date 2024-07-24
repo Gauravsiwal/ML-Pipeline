@@ -19,6 +19,7 @@ registry, experimentation, tracking, and tuning. Ultimately, the best-performing
 
 In the final phase, the chosen model is deployed on GitHub by creating a Streamlit application. This application
 serves to predict the likelihood of truck delays based on the trained model's insights.
+Application link: https://ml-pipeline-cqfgrtvduftttgkdkagfr6.streamlit.app/
 
 Overall, this pipeline aims to empower logistics companies with predictive capabilities to mitigate delays and
 associated financial losses effectively.
