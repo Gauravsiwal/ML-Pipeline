@@ -3,15 +3,17 @@ import pickle
 import pandas as pd
 import numpy as np
 
-
-with open('ML-Pipeline/truck_classification_rfc.pkl','rb') as file:
-    model = pickle.load(file,protocol=pickle.HIGHEST_PROTOCOL)
-
 with open('ML-Pipeline/encoder.pkl','rb') as file:
     encoder = pickle.load(file)
 
 with open('ML-Pipeline/scalar.pkl','rb') as file:
     scalar = pickle.load(file)
+
+with open('ML-Pipeline/truck_classification_rfc.pkl','rb') as file:
+    model = pickle.load(file,protocol=pickle.HIGHEST_PROTOCOL)
+
+
+
 
 def prediction(numcols,catcols):
 
