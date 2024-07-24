@@ -1,5 +1,5 @@
+!pip install scikit-learn
 import streamlit as st
-from sklearn.ensemble import RandomForestClassifier
 import pickle
 import pandas as pd
 import numpy as np
