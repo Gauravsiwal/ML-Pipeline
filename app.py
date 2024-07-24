@@ -3,7 +3,7 @@ import pickle
 import pandas as pd
 import numpy as np
 
-file = open('ML-Pipeline/encoder.pkl','rb')
+file = open('encoder.pkl','rb')
 encoder = pickle.load(file)
 
 with open('ML-Pipeline/scalar.pkl','rb') as file:
