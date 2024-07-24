@@ -17,7 +17,7 @@ scaled to prepare them for modeling. Models like Logistic regression, Decision T
 are fitted and validated on the dataset. The process includes leveraging Wandb (Weights and Biases) for model
 registry, experimentation, tracking, and tuning. Ultimately, the best-performing model is selected for deployment.
 
-In the final phase, the chosen model is deployed on GitHub by creating a Streamlit application. This application
+In the final phase, the chosen model is deployed by creating a Streamlit application and hosting it on GitHub. This application
 serves to predict the likelihood of truck delays based on the trained model's insights.
 Application link: https://ml-pipeline-cqfgrtvduftttgkdkagfr6.streamlit.app/
 
